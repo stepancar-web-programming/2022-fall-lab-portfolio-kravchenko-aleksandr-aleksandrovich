@@ -1,6 +1,9 @@
 h2{
   color: lightslategray;
 }
+canvas {
+  display: block;
+}
 body {
   margin: 0;
   padding: 0;
