@@ -3,12 +3,12 @@ import Card from './Card/Card';
 
 function Projects(){
     return(
-        <div>
+        <div class="projects">
             <h2>Мои Проекты</h2>
-            <div>
-                <Card name = "Проект 1" description = "описание"/>
-                <Card name = "Проект 2" description = "описание"/>
-                <Card name = "Проект 3" description = "описание"/>
+            <div class="cards">
+                <Card name = "Flocking" description = "Симуляция координированного полёта огромных стай птиц" imgsrc="flocking.jpg"/>
+                <Card name = "Silovie_Linii" description = "Графическое средство для представления векторных полей" imgsrc="siloviilinii.jpg"/>
+                <Card name = "Idk" description = "Тут можно еще добавить" imgsrc="cool-pic.png"/>
             </div>
         </div>
     );

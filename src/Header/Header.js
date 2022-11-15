@@ -2,7 +2,7 @@ import './Header.css'
 function Header(){
     return(
         <header>
-            <h2>My portfolio</h2>
+            <h1>Мое портфолио</h1>
         </header>
     );
 }

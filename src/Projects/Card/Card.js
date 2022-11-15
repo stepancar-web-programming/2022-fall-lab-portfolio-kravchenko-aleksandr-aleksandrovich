@@ -1,12 +1,15 @@
 import './Card.css'
 function Card(props){
-    const {name, description, src} = props
+    const {name, description, src, imgsrc} = props
+
     return(
-        <div>
+        <a href={`${src}`} class="card">
             <h3>{name}</h3>
             <p>{description}</p>
-            <a href={`${src}`}>ссылка</a>
-        </div>
+            <div class='trim'>
+                <img src={`${process.env.PUBLIC_URL}img/projects/${imgsrc}`} alt={`${name} картинка`}/>
+            </div>
+        </a>
     );
 }
 export default Card;

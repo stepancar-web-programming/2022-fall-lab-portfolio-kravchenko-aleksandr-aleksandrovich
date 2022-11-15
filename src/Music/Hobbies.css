@@ -1,0 +1,10 @@
+.hobbies{
+    padding: 2px 10px;
+}
+.hobbies audio{
+    width: 800px;
+}
+.hobbies video{
+    width: 800px;
+    border-radius: 20px;
+}
