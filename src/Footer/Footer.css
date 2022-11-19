@@ -7,3 +7,15 @@ footer{
 footer h2{
     margin-top:2px;
 }
+footer a{
+    display: inline-block;
+    margin:0 50% 20px 0;
+    color: aliceblue;
+    text-decoration: none;
+}
+footer a:visited{
+    color: aliceblue;
+}
+footer a:hover{
+    text-decoration: underline;
+}

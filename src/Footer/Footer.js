@@ -6,8 +6,8 @@ function Footer(){
         <footer>
             <div>
                 <h3>Контакты</h3>
-                <p>tel: +79312113884</p>
-                <p>mail: sashkak0204@gmail.com</p>
+                <a href='tel:+79312113884'>tel: +79312113884</a>
+                <a href='mailto:sashkak0204@gmail.com'>mail: sashkak0204@gmail.com</a>
             </div>
         </footer>
     );
