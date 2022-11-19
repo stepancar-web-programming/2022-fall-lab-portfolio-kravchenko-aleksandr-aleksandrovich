@@ -1,17 +1,19 @@
-.projects{
+.projects {
     margin-top: 20px;
     background-color: black;
-    padding:2px 10px;
+    padding: 2px 10px;
 }
-.projects h2{
+
+.projects h2 {
     color: aliceblue;
 }
-.cards::after{
+
+.cards::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.projects h2{
+.projects h2 {
     margin-top: 20px;
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Profile.css'
 
-function Profile(){
+function Profile() {
     return (
-        <div class = "profile">
+        <div class="profile">
             <h2>Обо мне</h2>
             <div>
-                <img src={`${process.env.PUBLIC_URL}img/profile-pic.jpg`} alt = "pic" />
+                <img src={`${process.env.PUBLIC_URL}img/profile-pic.jpg`} alt="pic" />
             </div>
             <div class='info'>
                 <h1>Кравченко Александр Александрович</h1>
