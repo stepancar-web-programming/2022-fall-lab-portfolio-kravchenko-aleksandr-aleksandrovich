@@ -1,0 +1,20 @@
+.profile {
+    padding: 2px 10px;
+}
+
+.profile img {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+
+.profile div {
+    float: left;
+    width: 50%;
+}
+
+.profile::after {
+    content: "";
+    display: table;
+    clear: both;
+}
